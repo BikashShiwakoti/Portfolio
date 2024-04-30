@@ -1,0 +1,72 @@
+.profile {
+    margin-top: 4vh;
+    width: 40%;
+    height: 10%;
+    box-shadow: 0 6px 8px green;
+    border-radius: 20vh 0vh;
+}
+
+.profile:hover {
+    animation: profileBorder 4s ease-in-out;
+}
+
+@keyframes profileBorder {
+    0% {
+        box-shadow: 0 6px 8px red;
+        border-radius: 0vh 20vh;
+
+    }
+
+    50% {
+        box-shadow: 0 6px 8px rgb(45, 82, 184);
+        border-radius: 20vh 20vh;
+    }
+
+    100% {
+        box-shadow: 0 6px 8px rgb(41, 172, 208);
+        border-radius: 20vh 0vh;
+    }
+}
+
+.aboutme h1{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.aboutme h1 span{
+    background: linear-gradient(267deg, rgb(66, 187, 208) 50.36%, rgb(73, 218, 73) 100.26%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.aboutme p{
+    text-align: center;
+    line-break: anywhere;
+    line-height: 10px;
+}
+
+.myself{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5vh;
+    margin-top: 5vh;
+    font-size: 30px;
+    font-weight: bold;
+}
+.connect{
+    background-color:rgb(112, 112, 184);
+    padding: 1vh;
+    border-radius: 16px;
+    background: linear-gradient(267deg, rgb(214, 72, 174) 10.36%, rgb(235, 120, 37) 100.26%);
+    cursor: pointer;
+}
+.resume{
+    background-color:rgb(112, 112, 184);
+    padding: 1vh;
+    border-radius: 16px;
+    background: linear-gradient(267deg, rgb(116, 223, 92) 50%, rgb(228, 228, 101) 80.22%);
+    cursor: pointer;
+}

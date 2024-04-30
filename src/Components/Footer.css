@@ -1,0 +1,17 @@
+.animated-text {
+    color: #0e4005;
+    display: inline-block;
+    font-size: 35px;
+    animation: slideIn 2s ease infinite alternate; 
+  }
+
+  @keyframes slideIn {
+    from {
+      transform: translateY(-20px); 
+      opacity: 0; 
+    }
+    to {
+      transform: translateY(0); 
+      opacity: 1; 
+    }
+  }

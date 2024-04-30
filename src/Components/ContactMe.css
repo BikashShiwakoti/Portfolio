@@ -1,0 +1,72 @@
+.contact{
+    background-color: gray;
+    margin: 4% 0;
+}
+
+ h3{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 30px;
+    padding-bottom: 15vh;
+    background: linear-gradient(267deg, rgb(37, 137, 196) 10.36%, yellow 100.26%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.container a{
+    text-decoration: none;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactForm{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 25px;
+}
+
+.contactForm label{
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.contactForm input{
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px blue, 10px 10px 8px red, 15px 15px 8px green;
+    padding: 10px;
+    width: 40%;
+}
+
+.contactForm button{
+    border-radius: 20px;
+    padding: 10px 25px;
+    margin-bottom: 2vh;
+    box-shadow: 5px 5px 8px blue;
+    background: linear-gradient(264deg, #DF8908 -5.09%, #B4A5FF 106.28%);
+    transition: 0.4s;
+}
+
+.contactForm button:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 8px greenyellow;
+    background-color: blue;
+    color: whitesmoke;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+.contactForm textarea{
+    width: 600px;
+    border-radius: 5px;
+}

@@ -1,0 +1,47 @@
+.grid-container{
+    width: 85%;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutBikash h1{
+    margin-top: 10vh;
+    font-size: 45px;
+}
+
+
+.profilepic img{
+    height: 300px;
+    width: 400px;
+    margin-left: 5vh;
+    border-radius: 100px;
+}
+
+.descrp ul{
+    list-style: none;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.skill{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    transform: 0.3s;
+}
+
+.skill hr{
+    outline: none;
+    border: none;
+    width: 50%;
+    height: 8px;
+    border-radius: 55px;
+    background: linear-gradient(135deg, #3498db, #9b59b6);
+}
