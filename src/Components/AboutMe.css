@@ -1,11 +1,4 @@
-.grid-container{
-    width: 85%;
-    height: 200px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    justify-content: center;
-}
+
 
 .aboutBikash h1{
     margin-top: 10vh;

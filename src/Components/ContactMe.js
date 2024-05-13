@@ -3,7 +3,7 @@ function ContactMe() {
     return (
         <div  id="contact" className="contact">
                 <h3>Contact Me</h3>
-            <div class="container">
+            <div class="container grid grid-cols-2 gap-10">
                 <div className='left'>
                     <h2>Let's Talk</h2>
                     <p class="text-center">Feel free to reach out to me with any questions or inquiries.
@@ -22,7 +22,7 @@ function ContactMe() {
                         <label htmlFor=''>Email</label>
                         <input type='email' placeholder='example@gmail.com' name='email' />
                         <label htmlFor=''>Write your meassage</label>
-                        <textarea name='message' rows={8} placeholder='Enter you meassage'> </textarea>
+                        <textarea name='message' placeholder='Enter you meassage'> </textarea>
                         <button className='contact-submit'>Submit</button>
 
                     </form>
