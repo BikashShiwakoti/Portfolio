@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.1644f362.css",
-    "main.js": "/Portfolio/static/js/main.a825eeaf.js",
+    "main.css": "/Portfolio/static/css/main.3e471ec2.css",
+    "main.js": "/Portfolio/static/js/main.7a4016a9.js",
     "static/js/453.169b5caa.chunk.js": "/Portfolio/static/js/453.169b5caa.chunk.js",
     "static/media/bikash.JPG": "/Portfolio/static/media/bikash.371fee7257cb84c2ba52.JPG",
     "static/media/Myimage.JPG": "/Portfolio/static/media/Myimage.9cf64ab425a15d655f65.JPG",
     "static/media/logoo.jpg": "/Portfolio/static/media/logoo.a12b16c973c4ffc89a17.jpg",
+    "static/media/Resume.pdf": "/Portfolio/static/media/Resume.9392314e0213c814db58.pdf",
     "static/media/Daan.png": "/Portfolio/static/media/Daan.d4386fc7e8ef2c6e91d7.png",
-    "static/media/Resume.pdf": "/Portfolio/static/media/Resume.8b2389d845290036fce9.pdf",
     "static/media/WeatherApp.png": "/Portfolio/static/media/WeatherApp.65bdb02991055530c4c6.png",
     "static/media/Map.png": "/Portfolio/static/media/Map.a969cc1cb19e3a3e904c.png",
     "static/media/GameApp.png": "/Portfolio/static/media/GameApp.de1537918c55855d289d.png",
     "static/media/NewsApp.png": "/Portfolio/static/media/NewsApp.d8b06dee415c3c212944.png",
     "static/media/Snake.png": "/Portfolio/static/media/Snake.e50eee6dc6c014888224.png",
     "index.html": "/Portfolio/index.html",
-    "main.1644f362.css.map": "/Portfolio/static/css/main.1644f362.css.map",
-    "main.a825eeaf.js.map": "/Portfolio/static/js/main.a825eeaf.js.map",
+    "main.3e471ec2.css.map": "/Portfolio/static/css/main.3e471ec2.css.map",
+    "main.7a4016a9.js.map": "/Portfolio/static/js/main.7a4016a9.js.map",
     "453.169b5caa.chunk.js.map": "/Portfolio/static/js/453.169b5caa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1644f362.css",
-    "static/js/main.a825eeaf.js"
+    "static/css/main.3e471ec2.css",
+    "static/js/main.7a4016a9.js"
   ]
 }
